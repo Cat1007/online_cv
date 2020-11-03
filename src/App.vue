@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <my-resume/>
+    <v-app>
+      <v-main>
+        <my-resume/>
+      </v-main>
+    </v-app>
   </div>
 </template>
 

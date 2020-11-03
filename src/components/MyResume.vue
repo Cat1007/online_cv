@@ -4,22 +4,21 @@
     <full-page ref="fullpage" :options="options" id="fullpage">
       <!--在section中配置对应内容-->
       <div class="section">
-        <div class="test">First section ...</div>
+          <self-description/>
       </div>
       <div class="section">
-        <div class="test">Second section ...</div>
+          <project-experience/>
       </div>
       <div class="section">
-        <div class="test">Third section ...</div>
       </div>
       <div class="section">
-        <div class="test">Fourth section ...</div>
+        <div class="sectionWrapper">Fourth section ...</div>
       </div>
       <div class="section">
-        <div class="test">Fifth section ...</div>
+        <div class="sectionWrapper">Fifth section ...</div>
       </div>
       <div class="section">
-        <div class="test">Sixth section ...</div>
+        <div class="sectionWrapper">Sixth section ...</div>
       </div>
     </full-page>
   </div>
@@ -27,11 +26,15 @@
 
 <script>
 import NavTabs from "@/components/NavTabs";
+import SelfDescription from "@/components/SelfDescription";
+import ProjectExperience from "@/components/ProjectExperience";
 
 export default {
   name: "MyResume",
   components: {
-    NavTabs
+    NavTabs,
+    SelfDescription,
+    ProjectExperience
   },
   data() {
     return {
@@ -40,13 +43,13 @@ export default {
         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
         // 设置每部分的锚点，用于页面导航
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
-        // 每个页面的背景色
-        sectionsColor: ['#41b883', '#ff5f45', '#0798ec'],
         // 预留顶部导航条位置
         paddingTop: '48px',
         // 配置切换事件
         onLeave: this.afterSectionLoad,
-        scrollingSpeed: 300
+        scrollingSpeed: 300,
+        // 配置滑动敏感性
+        touchSensitivity: 15
       },
       activeSection: 0,
     }
@@ -65,9 +68,8 @@ export default {
 </script>
 
 <style scoped>
-.test {
+.sectionWrapper {
   height: 100%;
   width: 100%;
-  background-color: gray;
 }
 </style>

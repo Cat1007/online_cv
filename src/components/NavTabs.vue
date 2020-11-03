@@ -18,8 +18,7 @@ export default {
     active: Number
   },
   data: function () {
-    return {
-    }
+    return {}
   },
   methods: {
     changeTabs: function (number) {
