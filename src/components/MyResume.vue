@@ -23,7 +23,9 @@
         </div>
       </div>
       <div class="section">
-        <div class="sectionWrapper">Sixth section ...</div>
+        <div class="sectionWrapper">
+          <contact/>
+        </div>
       </div>
     </full-page>
   </div>
@@ -36,6 +38,7 @@ import ProjectExperience from "@/components/ProjectExperience";
 import PersonalExperience from "@/components/PersonalExperience";
 import AboutMe from "@/components/AboutMe";
 import PersonalAbility from "@/components/PersonalAbility";
+import Contact from "@/components/Contact";
 
 export default {
   name: "MyResume",
@@ -45,7 +48,8 @@ export default {
     PersonalExperience,
     NavTabs,
     SelfDescription,
-    ProjectExperience
+    ProjectExperience,
+    Contact
   },
   data() {
     return {
