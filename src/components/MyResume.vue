@@ -12,10 +12,14 @@
       <div class="section">
       </div>
       <div class="section">
-        <div class="sectionWrapper">Fourth section ...</div>
+        <div class="sectionWrapper">
+          <personal-experience/>
+        </div>
       </div>
       <div class="section">
-        <div class="sectionWrapper">Fifth section ...</div>
+        <div class="sectionWrapper">
+          <about-me/>
+        </div>
       </div>
       <div class="section">
         <div class="sectionWrapper">Sixth section ...</div>
@@ -28,10 +32,14 @@
 import NavTabs from "@/components/NavTabs";
 import SelfDescription from "@/components/SelfDescription";
 import ProjectExperience from "@/components/ProjectExperience";
+import PersonalExperience from "@/components/PersonalExperience";
+import AboutMe from "@/components/AboutMe";
 
 export default {
   name: "MyResume",
   components: {
+    AboutMe,
+    PersonalExperience,
     NavTabs,
     SelfDescription,
     ProjectExperience
@@ -49,7 +57,9 @@ export default {
         onLeave: this.afterSectionLoad,
         scrollingSpeed: 300,
         // 配置滑动敏感性
-        touchSensitivity: 15
+        touchSensitivity: 15,
+        scrollOverflow: true,
+        sectionsColor: ['#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5']
       },
       activeSection: 0,
     }

@@ -4,8 +4,8 @@
       <v-tab>个人简介</v-tab>
       <v-tab>项目经历</v-tab>
       <v-tab>技能掌握</v-tab>
-      <v-tab>个人简介</v-tab>
-      <v-tab>项目经历</v-tab>
+      <v-tab>个人经历</v-tab>
+      <v-tab>关于我</v-tab>
       <v-tab>技能掌握</v-tab>
     </v-tabs>
   </div>

@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="fill-height">
-    <v-row align="center" justify="center" class="pa-6 fill-height">
+    <v-row align="center" justify="center" class="px-6 fill-height">
       <v-col cols="12" sm="4" class="d-flex flex-column align-center justify-center">
         <v-avatar size="120px" class="mb-6 mx-auto"><v-img src="../assets/avatar.png" alt="个人照片"/></v-avatar>
         <p class="text-subtitle-1">李哥</p>
