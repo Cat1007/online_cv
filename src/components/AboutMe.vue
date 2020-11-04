@@ -8,7 +8,7 @@
             <span class="ml-4 title font-weight-light">年龄</span>
           </v-card-title>
           <v-card-text class="headline font-weight-bold text-right primary--text">
-            18
+            2020届应届毕业生 22岁
           </v-card-text>
         </v-card>
       </v-col>
@@ -16,10 +16,10 @@
         <v-card elevation="2" class="primary--text">
           <v-card-title>
             <v-icon large left color="primary">mdi-map-marker</v-icon>
-            <span class="ml-4 title font-weight-light">地区</span>
+            <span class="ml-4 title font-weight-light">意向地区</span>
           </v-card-title>
           <v-card-text class="headline font-weight-bold text-right primary--text">
-            现居广州
+            广州 上海 深圳 杭州
           </v-card-text>
         </v-card>
       </v-col>
@@ -30,7 +30,7 @@
             <span class="ml-4 title font-weight-light">教育情况</span>
           </v-card-title>
           <v-card-text class="headline font-weight-bold text-right primary--text">
-            毕业于华南理工大学
+            华南理工大学 软件工程
           </v-card-text>
         </v-card>
       </v-col>

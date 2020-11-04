@@ -4,12 +4,13 @@
     <full-page ref="fullpage" :options="options" id="fullpage">
       <!--在section中配置对应内容-->
       <div class="section">
-          <self-description/>
+        <self-description/>
       </div>
       <div class="section">
-          <project-experience/>
+        <project-experience/>
       </div>
       <div class="section">
+        <PersonalAbility/>
       </div>
       <div class="section">
         <div class="sectionWrapper">
@@ -34,10 +35,12 @@ import SelfDescription from "@/components/SelfDescription";
 import ProjectExperience from "@/components/ProjectExperience";
 import PersonalExperience from "@/components/PersonalExperience";
 import AboutMe from "@/components/AboutMe";
+import PersonalAbility from "@/components/PersonalAbility";
 
 export default {
   name: "MyResume",
   components: {
+    PersonalAbility,
     AboutMe,
     PersonalExperience,
     NavTabs,
@@ -59,7 +62,7 @@ export default {
         // 配置滑动敏感性
         touchSensitivity: 15,
         scrollOverflow: true,
-        sectionsColor: ['#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5']
+        sectionsColor: ['#F5F5F5', '#F5F5F5', '#F5F5F5', '#F5F5F5', '#F5F5F5', '#F5F5F5']
       },
       activeSection: 0,
     }

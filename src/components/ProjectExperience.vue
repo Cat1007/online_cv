@@ -17,7 +17,17 @@
                   class="white--text align-end"
                   height="200px"
                   :src="project.projectImgSrc"
-              />
+              >
+                <template v-slot:placeholder>
+                  <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                  >
+                    <v-progress-circular indeterminate color="primary"></v-progress-circular>
+                  </v-row>
+                </template>
+              </v-img>
               <v-card-title>{{ project.projectName }}</v-card-title>
               <v-card-subtitle><p class="autoTruncateSubtitle">{{ project.projectDescription }}</p></v-card-subtitle>
               <v-card-text><p class="autoTruncateText">{{ project.projectResults }}</p></v-card-text>
