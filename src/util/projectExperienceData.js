@@ -37,7 +37,12 @@ let projectExperience = [
         projectResults: '成功实现忘记所有社交软件的密码',
         projectImgSrc: 'https://cdn.vuetifyjs.com/images/cards/docks.jpg',
         githubSrc: 'https://github.com/Cat1007/online_cv',
-        readmeSrc: 'https://github.com/Cat1007/online_cv'
+        readmeSrc: 'https://github.com/Cat1007/online_cv',
+        technicalPoint:[{
+            pointName:'123',
+            icon:'mdi-language-c',
+            content:'123'
+        }]
     },
     {
         projectName: '项目名称',

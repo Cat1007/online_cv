@@ -2,17 +2,15 @@
   <div class="pa-4 mb-8">
     <v-timeline :dense="isDense" align-top>
       <v-timeline-item
-          v-for="n in 6"
-          :key="n"
-          icon="mdi-star"
+          v-for="data in dataList"
+          :key="data"
+          icon="mdi-lightbulb"
           :right="isDense"
       >
         <v-card>
-          <v-card-title class="headline">Lorem ipsum</v-card-title>
+          <v-card-title class="headline">{{data.title}}</v-card-title>
           <v-card-text>
-            Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire
-            principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi
-            sententiae.
+          {{data.content}}
           </v-card-text>
         </v-card>
       </v-timeline-item>
@@ -21,6 +19,7 @@
 </template>
 
 <script>
+import personalExperienceData from '@/util/personalExperienceData'
 export default {
   name: "PersonalExperience",
   computed: {
@@ -33,6 +32,11 @@ export default {
         default:
           return false
       }
+    }
+  },
+  data:function(){
+    return{
+      dataList:personalExperienceData
     }
   }
 }
