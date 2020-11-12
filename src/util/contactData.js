@@ -4,7 +4,7 @@ const contactData = [{
     icon: "mdi-phone",
     iconColor: "green",
     colName: "电话",
-    colText: "15700000000",
+    colText: "157000000",
   },
   {
     avatarId: "email",
