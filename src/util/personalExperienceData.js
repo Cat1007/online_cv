@@ -1,20 +1,11 @@
 const personalExperienceData = [{
-    title: 'title',
-    content: 'bafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwer'
+    title: '2018.9 - 2019.6 C++实训',
+    content: '系统地学习C++相关知识，包括变量、复合数据类型、循环、条件、函数，以及类与对象的使用，能够使用输入输出流完成一些基础操作'
 },{
-    title: 'title',
-    content: 'bafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwer'
+    title: '2019.9 - 2020.1 Java实训',
+    content: '系统地学习Java相关知识，熟悉Java运行环境，掌握面向对象编程技术，能够实现接口与处理异常，最终能够设计GUI程序并进行I/O文件处理'
 },{
-    title: 'title',
-    content: 'bafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwer'
-},{
-    title: 'title',
-    content: 'bafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwer'
-},{
-    title: 'title',
-    content: 'bafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwer'
-},{
-    title: 'title',
-    content: 'bafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwerbafeaswafzvwer'
-}]
+    title: '2020.3 - 2020.6 软件开发实训',
+    content: '首次以小组方式合作开发，在本次开发中担任项目组长。我系统地认识了开发的大致流程，以及认识到在各个部分中各个部门人员所需要完成的工作，学习了如何在整个开发流程中合理分配任务，顺利完成开发工作。'
+},]
 export default personalExperienceData

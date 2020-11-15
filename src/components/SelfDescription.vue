@@ -3,8 +3,8 @@
     <v-row align="center" justify="center" class="px-6 fill-height">
       <v-col cols="12" sm="4" class="d-flex flex-column align-center justify-center">
         <v-avatar size="120px" class="mb-6 mx-auto"><v-img src="../assets/avatar.png" alt="个人照片"/></v-avatar>
-        <p class="text-subtitle-1">李哥</p>
-        <p class="text-center text-h6 primary--text font-weight-bold">西伯利亚土豆种植技术开发人员</p>
+        <p class="text-subtitle-1">李兴利</p>
+        <p class="text-center text-h6 primary--text font-weight-bold">求职：前端工程师</p>
       </v-col>
       <v-col cols="12" sm="4" class="d-flex flex-column align-center justify-center text-body-2">
         <ul>

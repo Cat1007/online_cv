@@ -63,10 +63,9 @@
           <v-col
             sm="3"
             class="d-none d-md-block"
-            v-for="item in project.technicalPoint"
-            :key="item"
           >
-            <v-card class="mb-3">
+            <v-card class="mb-3" v-for="item in project.technicalPoint"
+            :key="item">
               <v-card-title>
                 <v-icon left color="primary"> {{ item.icon }} </v-icon>
                 {{ item.pointName }}
