@@ -2,15 +2,15 @@
   <div class="pa-4 mb-8">
     <v-timeline :dense="isDense" align-top>
       <v-timeline-item
-          v-for="data in dataList"
-          :key="data"
+          v-for="(data,index) in dataList"
+          :key="index"
           icon="mdi-lightbulb"
           :right="isDense"
       >
         <v-card>
-          <v-card-title class="headline">{{data.title}}</v-card-title>
+          <v-card-title class="headline">{{ data.title }}</v-card-title>
           <v-card-text>
-          {{data.content}}
+            {{ data.content }}
           </v-card-text>
         </v-card>
       </v-timeline-item>
@@ -20,6 +20,7 @@
 
 <script>
 import personalExperienceData from '@/util/personalExperienceData'
+
 export default {
   name: "PersonalExperience",
   computed: {
@@ -34,9 +35,9 @@ export default {
       }
     }
   },
-  data:function(){
-    return{
-      dataList:personalExperienceData
+  data: function () {
+    return {
+      dataList: personalExperienceData
     }
   }
 }
